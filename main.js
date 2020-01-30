@@ -23,7 +23,7 @@ function press(e){
     .catch(function(error) {
      let errMod = document.querySelector('#modal')
      errMod.classList.remove("hidden")
-     errMod.innerText=
+     errMod.innerText=serverMessage
     });
 }
 
