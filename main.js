@@ -16,7 +16,7 @@ function press(e){
         heart.innerText=FULL_HEART
         heart.innerText.style.color='red'
       }
-      heart.style.color = colorStates[heart.style.color];
+      
     })
     .catch(function(error) {
       alert("Something went wrong!");
