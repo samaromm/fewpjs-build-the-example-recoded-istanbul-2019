@@ -8,6 +8,7 @@ let hearts = document.querySelectorAll('.like')
 for(let i of hearts){
   i.addEventListener('click', press)
 }
+
 function press(e){
   let heart=e.target
   mimicServerCall()
