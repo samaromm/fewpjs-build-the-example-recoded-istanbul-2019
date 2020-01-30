@@ -28,6 +28,7 @@ function press(e){
      let errMod = document.querySelector('#modal')
      errMod.classList.remove("hidden")
      errMod.innerText=serverMessage
+     setTimeout(() errMod.classList.remove("hidden") => , 2000)
     });
 }
 
