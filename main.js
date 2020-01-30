@@ -26,9 +26,9 @@ function press(e){
     })
     .catch(function(error) {
      let errMod = document.querySelector('#modal')
-     let forH2 = document.querySelector('#model ')
+     let forH2 = document.querySelector('#modal h2')
      errMod.classList.remove("hidden")
-     errMod.innerText=serverMessage
+     forH2.innerText=serverMessage
      setTimeout(() => errMod.classList.add("hidden") , 5000)
     });
 }
