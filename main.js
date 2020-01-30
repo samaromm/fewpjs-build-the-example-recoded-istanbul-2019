@@ -26,6 +26,7 @@ function press(e){
     })
     .catch(function(error) {
      let errMod = document.querySelector('#modal')
+     let forH2 = document.querySelector('#model ')
      errMod.classList.remove("hidden")
      errMod.innerText=serverMessage
      setTimeout(() => errMod.classList.add("hidden") , 5000)
