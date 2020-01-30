@@ -21,7 +21,7 @@ function press(e){
       
     })
     .catch(function(error) {
-     document.querySelector('#modal').classList.remove("")
+     document.querySelector('#modal').classList.remove("hidden")
     });
 }
 
