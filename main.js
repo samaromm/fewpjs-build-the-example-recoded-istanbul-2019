@@ -7,6 +7,7 @@ const FULL_HEART = '♥'
 let hearts = document.querySelectorAll('span.like-glyph')
 
 
+
 //------------------------------------------------------------------------------
 // Ignore after this point. Used only for demo purposes
 //------------------------------------------------------------------------------
