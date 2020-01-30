@@ -28,7 +28,7 @@ function press(e){
      let errMod = document.querySelector('#modal')
      let forH2 = document.querySelector('#modal h2')
      errMod.classList.remove("hidden")
-     forH2.innerText=serverMessage
+     forH2.innerText='hi'
      setTimeout(() => errMod.classList.add("hidden") , 5000)
     });
 }
