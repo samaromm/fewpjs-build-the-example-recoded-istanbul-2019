@@ -5,7 +5,9 @@ const FULL_HEART = '♥'
 // Your JavaScript code goes here!
 
 let hearts = document.querySelectorAll('span.like-glyph')
-
+function press(){
+  
+}
 
 
 //------------------------------------------------------------------------------
