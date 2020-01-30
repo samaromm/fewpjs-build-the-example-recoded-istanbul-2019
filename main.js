@@ -21,7 +21,7 @@ function press(e){
       
     })
     .catch(function(error) {
-      
+      element.classList.remove("mystyle")
     });
 }
 
