@@ -11,6 +11,17 @@ for(let i=0; i<hearts.length; i++){
 function press(e){
   let heart=e.target
   mimicServerCall()
+  .then(function(serverMessage){
+      let inner = heart.innerText
+      if(inner==EMPTY_HEART){
+        heart.innerText=FULL_HEART
+        inner.style.color='red'
+      }
+      heart.style.color = colorStates[heart.style.color];
+    })
+    .catch(function(error) {
+      alert("Something went wrong!");
+    });
 }
 
 
