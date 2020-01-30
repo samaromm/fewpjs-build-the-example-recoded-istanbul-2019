@@ -16,7 +16,7 @@ function press(e){
       alert(serverMessage)
       if(heart.innerText==EMPTY_HEART){
         heart.innerText=FULL_HEART
-        heart.classList.add("mystyle");
+        heart.classList.add("activated-heart");
       }
       
     })
