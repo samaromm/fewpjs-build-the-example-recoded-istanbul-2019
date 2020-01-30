@@ -14,7 +14,7 @@ function press(e){
   .then(function(serverMessage){
       if(heart.innerText==EMPTY_HEART){
         heart.innerText=FULL_HEART
-        inner.style.color='red'
+        heart.innerText.style.color='red'
       }
       heart.style.color = colorStates[heart.style.color];
     })
