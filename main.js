@@ -4,7 +4,7 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
-let hearts = document.querySelectorAll('span.like-glyph')
+let hearts = document.querySelectorAll('.like')
 for(let i=0; i<hearts.length; i++){
   hearts[i].addEventListener('click', press())
 }
