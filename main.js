@@ -6,7 +6,7 @@ const FULL_HEART = '♥'
 
 let hearts = document.querySelectorAll('.like')
 for(let i=0; i<hearts.length; i++){
-  hearts[i].addEventListener('click', press
+  hearts[i].addEventListener('click', press)
 }
 function press(e){
   let heart=e.target
