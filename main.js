@@ -12,8 +12,7 @@ function press(e){
   let heart=e.target
   mimicServerCall()
   .then(function(serverMessage){
-      let inner = heart.innerText
-      if(inner==EMPTY_HEART){
+      if(heart.innerText==EMPTY_HEART){
         heart.innerText=FULL_HEART
         inner.style.color='red'
       }
