@@ -21,7 +21,7 @@ function press(e){
       
     })
     .catch(function(error) {
-      alert("Something went wrong!");
+      
     });
 }
 
